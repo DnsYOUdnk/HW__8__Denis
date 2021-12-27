@@ -160,7 +160,6 @@ style.innerHTML = `
             box-sizing: border-box;
             text-align: center;
             border-radius: 8px 0 0 8px;
-            color: #212121;
         }
 
         .main__item:nth-child(1) {
@@ -195,6 +194,10 @@ style.innerHTML = `
             font-size: 36px;
             line-height: 46px;
             max-width: 210px;
+        }
+
+        .main__item:nth-child(1) .main__title {
+            color: #212121;
         }
 
         .main__sub_title {
